@@ -1,2 +1,2 @@
 # active-duty-edu
-deepdive pwp
+deepdive pwp to assist active duty military members to maximize their education benefits
