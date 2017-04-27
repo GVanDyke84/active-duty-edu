@@ -15,6 +15,12 @@
 
 		<main>
 
+			<p>
+				Purpose: I have become quite knowledgeable about educational benefits for military members and I intend for this site 				to serve as an informational resource to guide and help military members looking to maximize the educational benefits 				available to them.
+			</p>
+
+
+
 		</main>
 	</body>
 </html>
