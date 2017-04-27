@@ -28,13 +28,12 @@
 			</p>
 
 		<p>
-			Persona: Jane Johnson 20 years old and is in her 2nd year of service in the Army. She has her own laptop, but when on deployment she is only able to connect to the internet on secure Army computers. She wants information on the best DANTES/CLEP exams to take and how they will transfer into a degree program of her choice at well recognized universities. Time on secure computers is limited, with many other people in line to use them, so she would like to get thorough information as quickly as possible.
+			Persona: Jane Johnson is 20 years old and is in her 2nd year of service in the Army. She has her own laptop, but when on deployment she is only able to connect to the internet on secure Army computers. It is frustrating that she can't regularly connect to wifi when she wants information about something, but realizes that's just the way things go in the military. She wants information on the best DANTES/CLEP exams to take and how they will transfer into a degree program of her choice at well recognized universities. Time on secure computers is limited, with many other people in line to use them, so she would like to get thorough information as quickly as possible.
 		</p>
 
-			<p>
-
-			</p>
-
+		<p>
+			Use case: Jane is currently on deployment. An educational representative recently addressed her and her fellow soldiers about their ability to take free CLEP and DANTES exams for college credit while on active duty. Unfortunately, as is usually the case, specifics were not given and she is not sure what exams would transfer into a business degree program various highly ranked universities. She is motivated to start studying but just needs some direction. When she gets off of work she has 15 minutes to use the computer and does a quick google search on "CLEP Business Degrees". ActiveDutyEdu.org pops up and she immediately sees a table of commonly transferable CLEP courses, she quickly prints the table and fills out the contact form where she can request information about detailed guides for a number of universities and where she can purchase them.
+		</p>
 		</main>
 	</body>
 </html>
