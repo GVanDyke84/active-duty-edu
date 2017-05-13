@@ -20,6 +20,7 @@
 			<label>Mobile wireframes</label>
 			<img src="images/mobilewf1.jpg" alt="1st page of mobile wireframe">
 			<img src="images/mobilewf2.jpg" alt="2nd page of mobile wireframe">
+
 			<label>PC wireframe</label>
 			<img src="images/pcwf.jpg" alt="PC wireframe">
 
