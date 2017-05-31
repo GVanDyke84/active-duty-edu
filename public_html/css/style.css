@@ -18,7 +18,7 @@ body {
 #section1 {
 	background-image: url('jet.jpg');
 	background-size: cover;
-	color: black;
+	color: #070707;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -29,7 +29,7 @@ body {
 #section3 {
 	background-image: url(adventure.jpg);
 	background-size: cover;
-	color: black;
+	color: #070707;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -48,29 +48,7 @@ body {
 
 
 
-#stage {
 
-	background-size: cover;
-	color: white;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-}
-
-#stage-caption {
-	font-size: 2.4rem;
-	font-weight: 200;
-	max-width: 60rem;
-	margin: 0 auto;
-	text-align: center;
-}
-
-#stage-caption h1 {
-	color: white;
-	font-weight: bold;
-	text-transform: uppercase;
-}
 
 .feature-content {
 	padding: 8rem 0;
@@ -90,15 +68,13 @@ body {
 	color: white;
 }
 
-.feature-alt {
-	background: #f0f0f0;
-}
+
 
 
 
 /* Media Queries */
 
-@media screen and ( min-width : 991px ) {
+@media screen and ( min-width : 500px ) {
 
 	.feature-content {
 		display: flex;
