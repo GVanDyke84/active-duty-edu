@@ -20,8 +20,8 @@ $(document).ready(function(){
 				required: true
 			},
 			message: {
-				required: true,
-				maxlength: 2000
+				required: false,
+				maxlength: 500
 			}
 		},
 
