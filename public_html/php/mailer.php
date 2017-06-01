@@ -41,8 +41,7 @@ try {
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
 
-	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
+
 
 	/**
 	 * attach the actual message to the message
