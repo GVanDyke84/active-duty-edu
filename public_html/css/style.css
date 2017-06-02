@@ -16,6 +16,8 @@ body {
 
 
 
+
+
 #section1 {
 	background-image: url('jet.jpg');
 	background-size: cover;
@@ -27,8 +29,9 @@ body {
 
 }
 
+
 #section2 {
-	allign: center;
+	align: center;
 }
 
 #section3 {
@@ -85,16 +88,8 @@ div.g-recaptcha > div {
 
 
 
-/* Media Queries */
 
-@media screen and ( min-width : 500px ) {
-
-	.feature-content {
-		display: flex;
-		align-items: center;
-	}
-
-}
+}}
 
 
 
