@@ -13,13 +13,8 @@ body {
 
 
 
-
-
-
-
-
 #section1 {
-	background-image: url('jet.jpg');
+	background-image: url('flag.jpg');
 	background-size: cover;
 	color: #070707;
 	height: 100%;
@@ -29,10 +24,21 @@ body {
 
 }
 
+#mobileMain {
+	background-image: url('') ;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
 
 #section2 {
-	align: center;
+	align-items: center;
 }
+
+
 
 #section3 {
 	background-image: url(adventure.jpg);
@@ -45,6 +51,10 @@ body {
 
 }
 
+.lead {
+	font-weight: bold;
+}
+
 div.g-recaptcha > div {
 	margin: 0 auto 1.5rem auto;
 }
@@ -55,6 +65,7 @@ div.g-recaptcha > div {
 	border: none;
 	padding: 0;
 }
+
 
 
 .table{
@@ -84,16 +95,23 @@ div.g-recaptcha > div {
 	color: white;
 }
 
+@media (min-width:720px) {
+	#mobileMain {
+		display:none !important;
+
+	}
+}
 
 
+@media only screen and (max-width: 767px) {
+	#section2 {
+		display:none !important;
+	}
 
+}
 
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 767px) {
+	#section3 {
+		display:none !important;
+	}
+}
