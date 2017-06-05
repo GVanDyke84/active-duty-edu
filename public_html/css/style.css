@@ -51,6 +51,17 @@ body {
 
 }
 
+#btn-success {
+	background-color: dodgerblue;
+	border-color: dodgerblue;
+}
+
+#btn-warning {
+	background-color: crimson;
+	border-color: crimson;
+}
+
+
 .lead {
 	font-weight: bold;
 	font-family: "Rockwell Extra Bold";
@@ -96,6 +107,7 @@ div.g-recaptcha > div {
 .feature-dark h2 {
 	color: white;
 }
+
 
 @media (min-width:720px) {
 	#mobileMain {
