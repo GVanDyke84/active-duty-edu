@@ -5,7 +5,7 @@ body {
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
+	webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 	color: #070707;
 	text-align: center;
@@ -21,6 +21,7 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 
 #mobileIntro {
 	background-image: url('grungeFlag.jpg');
@@ -86,13 +87,6 @@ div.g-recaptcha > div {
 	margin: 0 auto 1.5rem auto;
 }
 
-.blockquote {
-	font-size: 1.6rem;
-	color: #333;
-	border: none;
-	padding: 0;
-}
-
 .table{
 	text-align-all: center;
 }
@@ -110,7 +104,7 @@ div.g-recaptcha > div {
 	background: #262F36;
 }
 
-
+/*mobileIntro applies to mobile screens only and is hidden on pc*/
 
 @media (min-width:720px) {
 	#mobileIntro {
@@ -118,11 +112,15 @@ div.g-recaptcha > div {
 	}
 }
 
+/*mobileMain applies to mobile screens only and is hidden on pc*/
+
 @media (min-width:720px) {
 	#mobileMain {
 		display:none !important;
 	}
 }
+
+/*section1 applies to pc only and is hidden on mobile*/
 
 @media only screen and (max-width: 767px) {
 	#section1 {
@@ -130,11 +128,15 @@ div.g-recaptcha > div {
 	}
 }
 
+/*section2 applies to pc only and is hidden on mobile*/
+
 @media only screen and (max-width: 767px) {
 	#section2 {
 		display:none !important;
 	}
 }
+
+/*section3 applies to pc only and is hidden on mobile*/
 
 @media only screen and (max-width: 767px) {
 	#section3 {
