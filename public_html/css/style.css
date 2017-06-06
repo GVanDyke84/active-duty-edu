@@ -11,62 +11,60 @@ body {
 	text-align: center;
 }
 
-
-
 #section1 {
 	background-image: url('flag.jpg');
 	background-size: cover;
-	color: black;
-	text-shadow: 2px 2px 2px white;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
-
-
 }
 
 #mobileIntro {
 	background-image: url('grungeFlag.jpg');
 	background-size: cover;
-	color: black;
-	text-shadow: 2px 2px 2px white;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
-
-
 }
-
-
 
 #mobileMain {
 	background-image: url('chalk.jpg') ;
 	background-size: cover;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
 }
 
-
 #section2 {
 	align-items: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
 }
-
-
 
 #section3 {
 	background-image: url(adventure.jpg);
 	background-size: cover;
-	color: #070707;
-	text-shadow: 1px 1px 1px white;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
 
+}
+
+#section4 {
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
 }
 
 #btn-success {
@@ -79,11 +77,9 @@ body {
 	border-color: crimson;
 }
 
-
 .lead {
 	font-weight: bold;
 	font-family: "Rockwell Extra Bold";
-
 }
 
 div.g-recaptcha > div {
@@ -97,24 +93,17 @@ div.g-recaptcha > div {
 	padding: 0;
 }
 
-
-
 .table{
 	text-align-all: center;
 }
 
 .text-center {
 	text-align-all: center;
-
 }
 
 .feature-content {
 	padding: 8rem 0;
 	overflow: hidden;
-}
-
-.feature-content img {
-	margin-bottom: -8rem;
 }
 
 .feature-dark {
@@ -129,30 +118,25 @@ div.g-recaptcha > div {
 @media (min-width:720px) {
 	#mobileIntro {
 		display:none !important;
-
 	}
 }
 
 @media (min-width:720px) {
 	#mobileMain {
 		display:none !important;
-
 	}
 }
-
 
 @media only screen and (max-width: 767px) {
 	#section1 {
 		display:none !important;
 	}
-
 }
 
 @media only screen and (max-width: 767px) {
 	#section2 {
 		display:none !important;
 	}
-
 }
 
 @media only screen and (max-width: 767px) {
