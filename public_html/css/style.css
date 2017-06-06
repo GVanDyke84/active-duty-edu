@@ -16,7 +16,8 @@ body {
 #section1 {
 	background-image: url('flag.jpg');
 	background-size: cover;
-	color: whitesmoke;
+	color: black;
+	text-shadow: 2px 2px 2px white;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -25,6 +26,18 @@ body {
 
 }
 
+#mobileIntro {
+	background-image: url('grungeFlag.jpg');
+	background-size: cover;
+	color: black;
+	text-shadow: 2px 2px 2px white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+
+}
 
 
 
@@ -48,6 +61,7 @@ body {
 	background-image: url(adventure.jpg);
 	background-size: cover;
 	color: #070707;
+	text-shadow: 1px 1px 1px white;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -112,6 +126,12 @@ div.g-recaptcha > div {
 	color: white;
 }
 
+@media (min-width:720px) {
+	#mobileIntro {
+		display:none !important;
+
+	}
+}
 
 @media (min-width:720px) {
 	#mobileMain {
@@ -121,7 +141,12 @@ div.g-recaptcha > div {
 }
 
 
+@media only screen and (max-width: 767px) {
+	#section1 {
+		display:none !important;
+	}
 
+}
 
 @media only screen and (max-width: 767px) {
 	#section2 {
