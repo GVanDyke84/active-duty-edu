@@ -108,12 +108,9 @@ div.g-recaptcha > div {
 
 .feature-dark {
 	background: #262F36;
-	color: white;
 }
 
-.feature-dark h2 {
-	color: white;
-}
+
 
 @media (min-width:720px) {
 	#mobileIntro {
